@@ -20,4 +20,5 @@ public class DirectionService {
     public List<Direction> getAll() {
         return directionRepository.findAll();
     }
+
 }
